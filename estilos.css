@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h1{
+    color: forestgreen;
+    font-size: 33px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 25px;
+    padding: 35px;
+    border: 3px solid cadetblue;
+    background-color: white;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+}
+
+.pc{
+    margin: 10px 850px 10px 180px;
+    padding: 14px;
+    background-color: chartreuse;
+    border: dotted 2px green;
+    text-align: center;
+}
+.contenido{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 18px;
+}
+h3{
+    color:crimson
+}
+
+/* nav{
+    background-color: chocolate;
+} */
+
+
+nav ul{
+    margin: 20px 300px;
+    /* text-align: center; */
+    padding: 1px;
+    border: 2px dotted green;
+    background-color: aquamarine;
+}
+
+#pintura{
+    text-align: center;
+}
+#pintura img{
+    width: 700px;
+    border: orchid solid 9px;
+}
+
+figcaption{
+    text-decoration: underline;
+}
+
+input{
+    display: block;
+    margin: 10px 0px;
+}
+
+#formulario{
+    border: solid 2px cornflowerblue;
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    background-color: blueviolet;
+}
+
+body{
+    background-color: chocolate;
+}
+
+header{
+    background-color: chocolate;
+}
+
+main{
+    background-color: chocolate;
+}
+
+html{
+    background-color: chocolate;
+}
+
+footer{
+    /* margin-top: 5px;
+    margin-left: 16px; */
+    background-color: chocolate;
+}
+footer ul li{
+    display: inline;
+    background-color: chocolate;
+}
+
+#aleya{
+    width: 250px;
+}
