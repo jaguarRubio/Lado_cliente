@@ -1,0 +1,181 @@
+html{
+    background-color:forestgreen;
+}
+
+#barra_encabezado{
+    color:yellow ;
+}
+p:not(.negro-subrayadoNt):not(.negro):not(.caso_concreto){
+    font-family: 'Zen Maru Gothic', sans-serif;
+    display: block;
+    color: black;
+    margin-left: 9px;
+}
+.caso_concreto{
+    font-family: 'Zen Maru Gothic', sans-serif;
+    display: inline;
+    color: black;
+    margin-left: 9px;
+}
+.negro{
+    color: black;
+    font-weight: bold;
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    display: inline;
+}
+/* es lo mismo del selector de arriba pero sin text-decoration-line: underline y text-decoration-thickness: 1px. */
+.negro-subrayadoNt{color: black;font-weight: bold;display: inline;}
+
+.secciones_ablucion{
+    margin: 20px 10px;
+}
+
+h1{
+    border: 2px solid black;
+    padding: 3px;
+    background-image: url(./pinturas/naruto-g63a6f2414_640.png);
+    background-size: contain;
+    text-align:left;
+    margin-right: 730px;
+    color: cyan;
+    background-color: orange;
+    border-radius: 9px;
+}
+.capital:first-letter{
+    display: block;
+    float: left;
+    border: solid 2px darkgreen;
+    color: lightyellow;
+    padding: 5px;
+    font-family: 'Dancing Script', cursive;;
+    margin: 4px 5px;
+    background:url(./pinturas/la-mandala-verde-apequennado.jpg);
+    background-size:contain;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.capital{font-size: 23px; font-stretch: expanded;}
+.cursiva-cyan{font-style: oblique; color:cyan}
+.cyan{color:cyan}
+footer{
+    background-color: gold;
+    padding: 3px;
+}
+
+.fa-spin{
+    font-size: 38px;
+    background-color: lightyellow;
+    border-radius: 1.0em;
+    padding: -2px;
+}
+.fa-moon{
+    animation-duration: 15s;
+}
+.fa-frog{
+    color: green;
+}
+
+.introduccion{
+    color: chocolate;
+}
+main{
+    background-color:forestgreen;
+}
+
+img{
+    width: 530px;
+    margin-bottom: 1em;
+}
+.carousel-item > img{
+    width: 820px;
+}
+figcaption > p{
+    text-align: center;
+}
+
+.container-md{
+    align-content: center;
+}
+.listas_aguas{
+    list-style:upper-roman;
+}
+.listas_religion{
+    list-style:square ;
+}
+table{
+    background-color: gold;
+    border: 2px solid black;
+    margin-bottom: 68px;
+}
+.enlace_verdoso{
+    color: darkgreen;
+}
+.enlace_verdoso:hover{
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav > ul,
+nav > ol{
+    color:goldenrod;
+}
+footer > ul > li{
+    display: inline;
+    list-style: none;
+    margin-right: 14px;
+}
+.enlace_de_pie{
+    color:indigo;
+}
+.enlace_de_pie:hover{
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer > ul{
+    margin-top:50px;
+    text-align: right;
+}
+iframe{
+    margin-bottom:14px;
+}
+#beber_sunnah{
+    margin-top:90px;
+}
+/* Ayuda no puedo eliminar la línea blanca que está entre el footer y la lista <ol> del main */
+footer > dl, ol, ul{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/* resulto (y) */
+.lista_de_ablucion{
+    list-style: decimal-leading-zero;
+}
+input[id^="espoiler"]{
+    display: none;
+}
+input[id^="espoiler"]+label{
+display: inline;
+width: 200px;
+margin: 0 auto;
+padding: 5px 20px;
+background-color: limegreen;
+cursor: pointer;
+}
+input[id^="espoiler"]:checked + label{
+color: #333;
+background-color: darkgreen;
+}
+input[id^="espoiler"]~.espoiler{
+width: 90%;
+height: 0;
+overflow: hidden;
+opacity: 0;
+margin: 10px auto 0;
+}
+input[id^="espoiler"]:checked + label + .espoiler{
+height: auto;
+opacity: 1;
+}
+footer > ul a{
+    margin-left:10px;
+}
