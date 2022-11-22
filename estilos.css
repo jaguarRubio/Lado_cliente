@@ -41,6 +41,7 @@ h1{
     color: cyan;
     background-color: orange;
     border-radius: 9px;
+    width: fit-content;
 }
 .capital:first-letter{
     display: block;
